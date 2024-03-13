@@ -5,7 +5,7 @@
 
 public class Exercicio01 {
     
-    public static void main(String[] args) {
+    public static void executar() {
         
         double valor = Prompt.lerDecimal("Digite o seu número: ");
 

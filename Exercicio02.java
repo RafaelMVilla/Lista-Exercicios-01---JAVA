@@ -6,7 +6,7 @@
 public class Exercicio02 {
     
 
-    public static void main(String[] args) {
+    public static void executar() {
         
         double valor1 = Prompt.lerDecimal("Digite o primeiro número: ");
 
