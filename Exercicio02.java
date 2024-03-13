@@ -15,8 +15,5 @@ public class Exercicio02 {
         double soma = valor1 + valor2;
 
         Prompt.imprimir("O resultado da soma é: " + soma);
-
-        
-        
     }
 }
