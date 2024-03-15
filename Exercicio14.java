@@ -7,6 +7,13 @@ public class Exercicio14 {
     
     public static void executar(){
 
-        
+        int a1 = Prompt.lerInteiro("Informe o valor de a1: ");
+        int n = Prompt.lerInteiro("Informe o valor de n: ");
+        int r = Prompt.lerInteiro("Informe o valor de r: ");
+
+        int an = a1 + (n - 1)* r;
+
+        Prompt.imprimir("A1 = " + a1 + ", n = " + n + ", r = " + r);
+        Prompt.imprimir("Resultado: " + an);
     }
 }
