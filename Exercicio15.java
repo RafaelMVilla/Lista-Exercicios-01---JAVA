@@ -6,13 +6,12 @@ public class Exercicio15 {
     
     public static void executar(){
 
-        double x1 = Prompt.lerInteiro("Informe as coordenadas cartesianas do primeiro ponto: \n X1 =");
-        double x2 = Prompt.lerInteiro("Informe as coordenadas cartesianas do primeiro ponto: \n Y1 =");
-        double y1 = Prompt.lerInteiro("Informe as coordenadas cartesianas do segundo ponto: \n X2 =");
-        double y2 = Prompt.lerInteiro("Informe as coordenadas cartesianas do segundo ponto: \n Y2 =");
+        double x1 = Prompt.lerInteiro("Informe as coordenadas cartesianas do primeiro ponto(X1): ");
+        double x2 = Prompt.lerInteiro("Informe as coordenadas cartesianas do primeiro ponto(Y1): ");
+        double y1 = Prompt.lerInteiro("Informe as coordenadas cartesianas do segundo ponto(X2): ");
+        double y2 = Prompt.lerInteiro("Informe as coordenadas cartesianas do segundo ponto(Y2): ");
 
         double d = Math.sqrt ((Math.pow(x2 - x1, 2)) + (Math.pow(y2 - y1, 2)));
-
         Prompt.imprimir("d = " + d);
 
     }
